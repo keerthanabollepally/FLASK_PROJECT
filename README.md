@@ -17,16 +17,15 @@ A simple Flask project that provides user **register**, **login** (using JWT), a
 
 ## Project Structure
 flask_user_api/
-├─ app.py # Main Flask application
-├─ models.py # Database models
-├─ database.py # Database setup
-├─ routes/
-│ ├─ auth.py # Register and login routes
-│ └─ user.py # User profile routes (view, update, delete)
-├─ requirements.txt # Project dependencies
-├─ .env # Environment variables (secret key, DB)
-└─ README.md
-
+├── app.py              # Main Flask application
+├── models.py           # Database models
+├── database.py         # Database setup
+├── routes/
+│   ├── auth.py         # Register and login routes
+│   └── user.py         # User profile routes (view, update, delete)
+├── requirements.txt    # Project dependencies
+├── .env                # Environment variables (secret key, DB)
+└── README.md
 
 
 ---
