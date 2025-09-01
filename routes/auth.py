@@ -30,7 +30,7 @@ def register():
         return jsonify({"error": "email already registered"}), 409
 
     # issue JWT with user's id as identity
-    token = create_access_token(identity=user.id)
+    token = create_access_token(identity=str(user.id))
     return jsonify({"message": "registered", "user": user.to_dict(), "access_token": token}), 201
 
 
